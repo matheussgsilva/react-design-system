@@ -6,7 +6,7 @@ export default {
   component: TextInput.Root,
   args: {
     children: (
-    <TextInput.Input placeholder="Type your e-mail address"/>
+      <TextInput.Input placeholder="Type your e-mail address" />
     ),
   },
   argTypes: {
@@ -16,7 +16,7 @@ export default {
       }
     },
   }
-} as Meta<TextInputRootProps>
+} as unknown as Meta<TextInputRootProps>
 
 export const Default: StoryObj<TextInputRootProps> = {}
 
